@@ -158,4 +158,4 @@ guardar_datos(archivo_pendientes, tareas_pendientes)
 guardar_datos(archivo_completadas, tareas_completadas)
 
 # Mostramos un mensaje de despedida al usuario
-print("Gracias nuestro programa. Hasta pronto.")
+print("Gracias por utilizar nuestro programa. Hasta pronto.")
