@@ -1,0 +1,61 @@
+/* Estilos para el encabezado */
+header {
+    background-color: lightblue;
+    text-align: center;
+    border: 2px solid gray;
+    font-size: 36px;
+    color: white;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    border: 1px solid darkgray;
+    color: black;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+/* Cuadrícula de dos columnas */
+.grid {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.grid > div {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+/* Alineación vertical y orden de visualización */
+.grid {
+    align-items: center;
+}
+
+.grid > div {
+    flex-direction: column-reverse;
+}
+
+/* Espacio entre secciones */
+section {
+    margin-bottom: 20px;
+}
+
+/* Ancho completo en la cuadrícula */
+section {
+    width: 100%;
+}
